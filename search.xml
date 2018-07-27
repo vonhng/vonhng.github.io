@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2018%2F07%2F27%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[安装go docker]]></title>
     <url>%2F2018%2F07%2F27%2Fgo_docker_install%2F</url>
     <content type="text"><![CDATA[安装docker123456789yum -y update -yyum -y install gcc gcc-c++curl -fsSL https://get.docker.com/ | shsystemctl start dockersystemctl status dockersystemctl enable dockerdocker build . -t web-service:1.0docker run -it --rm -v `pwd`:/app web-service:1.0 /bin/bash 安装go123wget https://dl.google.com/go/go1.10.3.linux-amd64.tar.gztar -C /usr/local -xzf go1.10.3.linux-amd64.tar.gzexport PATH=$PATH:/usr/local/go/bin 安装pipenv1wget https://files.pythonhosted.org/packages/7e/01/3faf5d7e80c8c0612667b12104ae205a5e33d502f84b6e8bfdc07a2eb9fa/pipenv-2018.5.18.tar.gz]]></content>
+      <categories>
+        <category>后端</category>
+      </categories>
+      <tags>
+        <tag>docker</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F07%2F27%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
   </entry>
 </search>
